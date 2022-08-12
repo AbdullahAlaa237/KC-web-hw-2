@@ -1,9 +1,9 @@
 
 body{
 
-padding: 0;
+background-color: black;
 
-
+margin: 0;
 
 }
 
@@ -13,7 +13,7 @@ padding: 0;
 .header{
 height: 50px;
 width: 100%;
-background-color: blue;
+background-color: rgb(255, 0, 0);
 justify-content: space-between;
 display: flex;
 align-items: center;
@@ -43,5 +43,156 @@ padding: 10px;
 display: flex;
 
 
+}
+
+.black{
+
+color: black;
+
+padding-left: 10px;
+
+
 
 }
+
+.white{
+
+color: white;
+
+text-align: center;
+
+
+
+}
+
+
+.horror1{
+
+color: rgb(0, 0, 0);
+
+background-image:url(./A\ NIGHTMARE\ ON\ ELM\ STREET\ 3\ DREAM\ WARRIORS.jpg) ;
+
+width: 155px;
+
+height: 250px;
+
+margin: 100px;
+}
+
+
+
+
+.flex{
+
+display: flex;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+.horror2{
+
+
+background-image: url(./PHENOMENA.jpg);
+
+width: 155px;
+
+height: 250px;
+
+margin-left: 240px;
+
+display: flex;
+
+margin-top: 95px;
+
+}
+
+
+.horror3{
+
+
+
+    background-image: url(./ITS\ ALIVE.jpg);
+
+    width: 160px;
+    
+    height: 240px;
+    
+    margin-left: 300px;
+    
+    display: flex;
+    
+    margin-top: 98px;
+    
+    }
+
+
+.comedy1{
+
+
+background-image: url(./galaxy-quest-poster.jpg);
+
+
+width: 155px;
+
+height: 250px;
+
+margin: 100px;
+
+
+
+
+
+}
+
+
+.comedy2{
+
+
+
+background-image: url(./diary-of-a-wimpy-kid-poster.jpg);
+
+
+width: 155px;
+
+height: 250px;
+
+margin: 100px;
+
+
+margin-left: 250px;
+
+
+
+
+
+}
+
+.comedy3{
+
+
+    background-image: url(./home-alone-poster-min.jpg);
+
+    width: 155px;
+
+    height: 250px;
+    
+    margin: 100px;
+    
+margin-left: 200px;
+
+
+
+}
+
+
+
