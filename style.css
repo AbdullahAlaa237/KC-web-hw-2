@@ -4,7 +4,7 @@ body{
 background-color: black;
 
 margin: 0;
-
+z-index: -1;
 }
 
 
@@ -13,10 +13,14 @@ margin: 0;
 .header{
 height: 50px;
 width: 100%;
-background-color: rgb(255, 0, 0);
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 justify-content: space-between;
 display: flex;
 align-items: center;
+z-index: 1; 
+top: 0;
+position: sticky;
 }
 
 
@@ -180,9 +184,9 @@ margin-left: 250px;
 .comedy3{
 
 
-    background-image: url(./home-alone-poster-min.jpg);
+    background-image: url(./home-alone.jpg);
 
-    width: 155px;
+    width: 200px;
 
     height: 250px;
     
@@ -195,4 +199,78 @@ margin-left: 200px;
 }
 
 
+.action1{
 
+
+    background-image: url(./prey.jpg);
+    
+    
+    width: 155px;
+    
+    height: 250px;
+    
+    margin: 100px;
+    
+    
+    
+    
+    
+    }
+
+
+
+
+
+    .action2{
+
+
+
+        background-image: url(./super\ pets.jpg);
+        
+        
+        width: 155px;
+        
+        height: 250px;
+        
+        margin: 100px;
+        
+        
+        margin-left: 250px;
+        
+        
+        
+        
+        
+        }
+        .action3{
+
+
+            background-image: url(./4154796-med.jpg);
+        
+            width: 165px;
+        
+            height: 250px;
+            
+            margin: 100px;
+            
+        margin-left: 200px;
+        }        
+
+        .button{
+
+
+background-color: black;
+
+color: black ;
+
+
+
+        }
+
+        
+        
+        
+
+
+          
+        
